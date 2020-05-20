@@ -38,4 +38,4 @@ function saudar(nome, sobrenome, callback){
 
 }
 
-console.log(saudar("Maria","João", nomeCompleto))
+console.log(saudar("Maria","João", nomeCompleto));
