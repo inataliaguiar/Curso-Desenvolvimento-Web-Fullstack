@@ -37,3 +37,5 @@ function saudar(nome, sobrenome, callback){
     return "Olá " + callback(nome, sobrenome) + "!";
 
 }
+
+console.log(saudar("Maria","João", nomeCompleto))
