@@ -15,6 +15,7 @@
  * 
  */
 
+
 //Modo 1 (modo normal)
 setTimeout ( function (){
     console.log("Hello World!");
@@ -33,9 +34,11 @@ function nomeCompleto(nome, sobrenome){
 
 }
 
+
 function saudar(nome, sobrenome, callback){
     return "Olá " + callback(nome, sobrenome) + "!";
 
 }
 
-console.log(saudar("Maria","João", nomeCompleto));
+console.log(saudar("Erica","Chata",nomeCompleto));
+

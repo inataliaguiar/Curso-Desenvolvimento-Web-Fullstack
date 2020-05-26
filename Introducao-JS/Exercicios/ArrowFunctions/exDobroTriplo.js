@@ -11,4 +11,5 @@ function aplicar(numero, funcaoCallback){
 
 }
 
-console.log(10, triplo);
+var resultado = aplicar(10, dobro);
+console.log(resultado);
