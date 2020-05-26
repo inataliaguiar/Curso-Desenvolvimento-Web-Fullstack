@@ -12,33 +12,31 @@
  *  console.log("Hello World!");
  * 
  * } , 1000)
- * 
  */
 
 
 //Modo 1 (modo normal)
-setTimeout ( function (){
+setTimeout(function () {
     console.log("Hello World!");
 
-} , 1000)
+}, 1000)
 
 //Modo 2 (Com arrow function)
-
 let meuCallback = () => console.log("Hello World com callback e arrow function");
-setTimeout( meuCallback, 1000);
+setTimeout(meuCallback, 1000);
 
 
 //Outros exemplos
-function nomeCompleto(nome, sobrenome){
+function nomeCompleto(nome, sobrenome) {
     return nome + " " + sobrenome;
 
 }
 
 
-function saudar(nome, sobrenome, callback){
+function saudar(nome, sobrenome, callback) {
     return "Olá " + callback(nome, sobrenome) + "!";
 
 }
 
-console.log(saudar("Erica","Chata",nomeCompleto));
+console.log(saudar("Erica", "Chata", nomeCompleto));
 
