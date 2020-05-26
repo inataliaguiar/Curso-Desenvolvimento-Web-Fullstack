@@ -25,16 +25,16 @@
 
 var idade = 5;
 
-switch (idade){
+switch (idade) {
 
     case 10:
         console.log('Tem 10 anos');
-    break;
+        break;
 
-   case 5:
+    case 5:
         console.log('Tem 5 anos');
-    break;
+        break;
 
-   default:
-       console.log('Idade fora da relação');
+    default:
+        console.log('Idade fora da relação');
 }
