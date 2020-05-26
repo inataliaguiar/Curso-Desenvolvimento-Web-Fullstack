@@ -15,8 +15,7 @@
  * do {
  *      //Bloco de código a ser executado
  * }while (condicao);
- * 
- * 
+ *  
  * Em ambos os ciclos, é necessário definir uma condição de parada, senão o código será repetido infinitamente
  * */
 
@@ -25,7 +24,7 @@
 var contador = 1;
 var contador2 = 1;
 
-while (contador <=7){
+while (contador <= 7) {
     console.log("Ainda estamos na primeira semana! Esse é o dia: " + contador);
     contador++;
 }
@@ -35,4 +34,4 @@ var adivinhar = 13;
 do {
     console.log("Estamos repetindo até que o número seja adivinhado");
     contador2++;
-}while(contador2 != adivinhar);
+} while (contador2 != adivinhar);

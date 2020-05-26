@@ -29,7 +29,6 @@
  */
 
 //Exemplo - Modo 01
-
 var idade = 18;
 var acesso = '';
 
@@ -38,15 +37,15 @@ if (idade < 16){
 
 } else if (idade >= 16 && idade < 18){
     acesso = 'permitido com a entrada de um maior de idade';
-
 } else {
     acesso = 'permitido';
-  
+
 }
 
 //Exemplo - Modo 02
 var comparacao = 4 > 10 ? 'O 4 é maior' : 'O 10 é maior';
 
 console.log("Acesso: " + acesso);
+
 console.log("Comparação entre 4 e 10: " +  comparacao);
 

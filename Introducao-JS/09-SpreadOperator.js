@@ -1,12 +1,9 @@
 /** Introdução a Javascript - Stread Operator
  * 
  * Permite combinar os valores de arrays e objetos, criando uma nova estrutura contendo a combinação
- * 
- * 
  */
 
  //Spread operator com arrays
-
 var frutas1 = ["Uva","Maracujá","Maçã"]; //Array 1
 var frutas2 = ["Banana","Goiaba","Melancia"]; //Array 2
 
@@ -19,6 +16,7 @@ console.log(combinacaoFrutas);
 let pessoa = {
     nome: "Natali",
     idade: 21
+
 }
 
 let infoPessoal = {
@@ -31,7 +29,6 @@ let infoPessoal = {
 console.log(infoPessoal);
 
 //Spread Operator com funções
-
 function letras(...parametros){ //Define um parâmetro que é capaz de receber valores diferentes em cada execução
     console.log(parametros);
 

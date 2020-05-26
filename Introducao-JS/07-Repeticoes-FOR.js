@@ -9,8 +9,8 @@
  * 
  */
 
- //Exemplo (Dar 5 voltas)
+//Exemplo (Dar 5 voltas)
 
- for (var i = 0; i < 5; i++){
-    console.log("Dando a volta de número " + i);
- }
+for (var i = 0; i < 5; i++) {
+   console.log("Dando a volta de número " + i);
+}

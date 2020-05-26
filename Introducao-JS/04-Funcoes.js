@@ -30,15 +30,12 @@
 var nome = "Natali";
 
  //Exemplos
-
  function somar(a, b){
     return a + b;
-
  }
 
  function exibirNome(){
     return "Meu nome é: " + nome;
-
  }
 
 let fazerSushi = function(quantidade){
