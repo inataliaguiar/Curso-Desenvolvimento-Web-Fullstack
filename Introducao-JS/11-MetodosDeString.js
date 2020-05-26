@@ -11,8 +11,7 @@
  * string.replace(substituir, novaPalavra): Substitui uma parte de uma string por outra.
  */
 
- //Exemplos
-
+//Exemplos
 var nomeCompleto = "Natali Simoes Aguiar Rocha";
 
 console.log(nomeCompleto.length); //Retorna a quantidade de caracteres da String
