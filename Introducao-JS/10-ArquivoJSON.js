@@ -7,8 +7,6 @@
  *
  * Métodos para conversão: 
  * JSON.parse: Converte o formato JSON em algum formato Javascript (objeto ou array)
- * 
- *
  */
 
 //JSON para Javascript (objeto ou array)
