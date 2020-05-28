@@ -10,11 +10,9 @@
  * .indexOf(): procura um elemento que recebeu como parâmetro e retorna seu respectivo índice
  * .lastIndexOf(): procura o elemento que recebeu como parâmetro e retorna o índice, porém inicia a busca de trás para a frente
  * .includes(): realiza uma busca no array e retorna true se encontrar o elemento ou false caso não encontre 
- * 
- * /
+ */
 
 /*Exemplos: */
-
 var posicoes = ["Primeiro", "Segundo"];
 console.log();
 
