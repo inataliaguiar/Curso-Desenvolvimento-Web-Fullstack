@@ -37,8 +37,3 @@ console.log(diasDaSemana.join("-feira ")); //Junta os elementos do array acresce
 console.log(diasDaSemana.indexOf("Sexta")); //Retorna o índice do array correspondente ao parâmetro especificado
 console.log(diasDaSemana.lastIndexOf("Sexta")); //Começa a contagem de trás para frente e retorna o índice do array correspondente ao parâmetro especificado
 console.log(diasDaSemana.includes("Segunda")); //Retorna true se encontrar o elemento ou false caso não encontre
-
-/**
- * 
- * 
- */
