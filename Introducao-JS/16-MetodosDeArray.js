@@ -9,8 +9,7 @@
  * .join(): junta os elementos de um array usando o separador que foi especificado e retorna uma string com os elementos unidos
  * .indexOf(): procura um elemento que recebeu como parâmetro e retorna seu respectivo índice
  * .lastIndexOf(): procura o elemento que recebeu como parâmetro e retorna o índice, porém inicia a busca de trás para a frente
- * 
- * 
+ * .includes(): realiza uma busca no array e retorna true se encontrar o elemento ou false caso não encontre 
  * 
  * /
 
@@ -39,4 +38,5 @@ console.log(diasDaSemana.join(" - ")); //Método join junta os elementos do arra
 console.log(diasDaSemana.join("-feira ")); //Junta os elementos do array acrescentando "-feira"
 console.log(diasDaSemana.indexOf("Sexta")); //Retorna o índice do array correspondente ao parâmetro especificado
 console.log(diasDaSemana.lastIndexOf("Sexta")); //Começa a contagem de trás para frente e retorna o índice do array correspondente ao parâmetro especificado
+console.log(diasDaSemana.includes("Segunda")); //Retorna true se encontrar o elemento ou false caso não encontre
 
