@@ -38,3 +38,5 @@ switch (idade) {
     default:
         console.log('Idade fora da relação');
 }
+
+
