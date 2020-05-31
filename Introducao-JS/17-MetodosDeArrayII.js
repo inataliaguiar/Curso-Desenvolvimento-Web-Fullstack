@@ -32,7 +32,7 @@ console.log(maiores);
 
 
 //Reduce (Pendente código)
-//forEach
+//forEach (Pendente código)
 
 
 
