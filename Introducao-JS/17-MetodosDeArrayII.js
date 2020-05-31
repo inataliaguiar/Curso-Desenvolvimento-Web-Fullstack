@@ -31,7 +31,7 @@ let maiores = idades.filter(function (idadePermitida){
 console.log(maiores);
 
 
-//Reduce 
+//Reduce (Pendente código)
 //forEach
 
 
