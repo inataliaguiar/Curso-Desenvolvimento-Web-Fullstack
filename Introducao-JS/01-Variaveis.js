@@ -13,25 +13,24 @@
  * Para exibir dados no terminal é utilizado o comando 'console.log(conteudo)'
  * 
  * Concatenação (+): É utilizada para realizar a junção entre trechos textuais
- * 
- * */
-
+ */
 
  //Exemplos:
 
- var cor = "Azul";
- var numeroPar = 10;
-
+ var nome = "Natali";
+ var idade = 21;
  let genero = "Feminino";
- let idade = 21;
+ let altura = 1.63;
 
- const rg = 5326019082;
- const cpf = 47926762020;
+ const id = "20934";
 
- console.log("A cor é: " + cor);
+ console.log("Nome: " + nome);
+ console.log("Idade: " + idade);
  console.log("Gênero: " + genero);
- console.log("Sua idade é: " +  idade);
+ console.log("Altura: " + altura);
+ console.log("ID: " + id);
 
+ 
  
 
 
