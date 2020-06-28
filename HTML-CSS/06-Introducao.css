@@ -12,7 +12,6 @@ p {
 
 h1 {
     color: rgb(85, 17, 196); /*Define a cor da fonte*/
-    font-style: italic; /*Define o estilo do texto em itálico*/
     text-transform: uppercase; /*Deixa todas as letras em maiusculo*/
     text-align: center; /*Alinha o texto ao centro da página*/
 }
