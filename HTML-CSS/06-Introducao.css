@@ -1,0 +1,18 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Define  a fonte do body*/
+}
+
+p {
+    font-size: 20px; /*Define o tamanho da fonte do paragráfo*/
+    font-weight: bold; /*Define a "expessura da fonte"*/
+    text-transform: lowercase; /*Deixa todas as letras do pagrágrafo em minúsculo*/
+    text-align: justify; /*Define a formatação/disposição do paragráfo, nesse caso, justificado*/
+    line-height: 30px; /*Define a distância/altura entre as linhas*/
+}
+
+h1 {
+    color: rgb(85, 17, 196); /*Define a cor da fonte*/
+    font-style: italic; /*Define o estilo do texto*/
+    text-transform: uppercase; /*Deixa todas as letras em maiusculo*/
+    text-align: center; /*Alinha o texto ao centro da página*/
+}
