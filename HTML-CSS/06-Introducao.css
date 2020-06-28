@@ -1,5 +1,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Define  a fonte do body*/
+    background-image: url(img/wallpapersw.png); /*Coloca uma imagem de background através do caminho especificado*/
+    background-size: 100%; /*Define que a imagem de fundo ocupará 100% da tela*/
+    background-repeat: no-repeat; /*Define que a imagem de fundo não deve se repetir*/
 }
 
 p {
@@ -8,10 +11,12 @@ p {
     text-transform: lowercase; /*Deixa todas as letras do pagrágrafo em minúsculo*/
     text-align: justify; /*Define a formatação/disposição do paragráfo, nesse caso, justificado*/
     line-height: 30px; /*Define a distância/altura entre as linhas*/
+    color: #FFFF00; /*Define a cor da fonte do paragráfo*/
 }
 
 h1 {
-    color: rgb(85, 17, 196); /*Define a cor da fonte*/
+    color: #FFFF00; /*Define a cor da fonte*/
+    /*text-decoration: underline; Define que o texto será sublinhado*/
     text-transform: uppercase; /*Deixa todas as letras em maiusculo*/
     text-align: center; /*Alinha o texto ao centro da página*/
 }
