@@ -3,6 +3,9 @@
 const fs = require('fs'); //Importando o módulo fs para o node
 let moment = require('moment'); //importando o módulo moment para trabalhar com datas
 let superHerois = require('./Super_Herois'); //Importando o módulo criado de heróis
+const http = require('http'); //Importando o módulo http 
+
+
 
 //Utilizando o módulo fs
 let dados = fs.readFileSync(__dirname + '/dados.txt', 'utf8'); //Abre um arquivo e mostra o seu conteudo
