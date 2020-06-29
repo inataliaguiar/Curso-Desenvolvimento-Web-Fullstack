@@ -1,8 +1,8 @@
 /**Arquivo principal para importar e utilizar módulos Node */
 
 const fs = require('fs'); //Importando o módulo fs para o node
-let moment = require('moment'); //importando o módulo moment para trabalhar com datas
-let superHerois = require('./Super_Herois'); //Importando o módulo criado de heróis
+const moment = require('moment'); //importando o módulo moment para trabalhar com datas
+const superHerois = require('./Super_Herois'); //Importando o módulo criado de heróis
 const http = require('http'); //Importando o módulo http 
 
 
