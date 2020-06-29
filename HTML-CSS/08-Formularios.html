@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários com html</title>
+</head>
+<body>
+    <!--Criando formulários com html!
+    placeholder: É utilizado para informar a informação esperada, fica escrito no campo
+    type: define qual é o tipo de texto esperado
+    id: permite que o input identifique qual é o label de referência
+    name: é o nome do campo
+    -->
+    <form>
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+        <br>
+
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email">
+        <br>
+
+        <label for="senha">Senha: </label>
+        <input type="password" id="senha" name="senha">
+        <br>
+
+        <!--Formas de realizar o envio do formulario-->
+        <input type="submit" value="Enviar">
+        <button type="submit">Enviar</button>
+
+
+    </form>
+</body>
+</html>
