@@ -12,6 +12,7 @@
     id: permite que o input identifique qual é o label de referência
     name: é o nome do campo
     -->
+
     <form>
         <label for="nome">Nome: </label>
         <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
@@ -23,13 +24,37 @@
 
         <label for="senha">Senha: </label>
         <input type="password" id="senha" name="senha">
-        <br>
+        <br><br>
 
         <!--Formas de realizar o envio do formulario-->
         <input type="submit" value="Enviar">
         <button type="submit">Enviar</button>
 
-
     </form>
+
+    <br><br>
+    <!--Radio Button e Check box
+    Radio button: Permite escolher uma das escolhas disponíveis a partir de uma limitação com name, exemplo: "sim" ou "não"
+    Checkbox: Permite selecionar varias opções
+    Checked:Determina qual elemento estará marcado ao carregar a página
+    Type: define o tipo de botão
+    Name: Define o grupo que os botões irão pertencer 
+    Value: É a informação que será 'enviada' quando o usuário selecionar essa caixa
+
+    -->
+
+    <!--UTILIZANDO RADIO BUTTON-->
+    <label>Você gosta de star wars?</label><br><br>
+    <!--Com o name ambos os radios são colocados no mesmo grupo, determinando que a escolha é exclusiva-->
+    <input type="radio" id="sim" value="sim" name="gostar" checked><label for="sim">Sim</label><br>
+    <input type="radio" id="nao" value="nao" name="gostar"><label for="nao">Não</label>
+    <br><br>
+
+    <!--UTILIZANDO CHECK BOX-->
+    <label for="filme">Quais filmes mais gosta?</label><br><br>
+    <input type="checkbox" id="I" checked><label for="I">Epsódio I</label><br>
+    <input type="checkbox" id="II"><label for="II">Epsódio II</label><br>
+    <input type="checkbox" id="III"><label for="III">Epsódio III</label><br>
+
 </body>
 </html>
