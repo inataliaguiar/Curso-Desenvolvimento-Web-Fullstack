@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários com html</title>
 </head>
+
 <body>
     <!--Criando formulários com html!
     placeholder: É utilizado para informar a informação esperada, fica escrito no campo
@@ -15,24 +17,19 @@
 
     <form>
         <label for="nome">Nome: </label>
-        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
         <br>
 
         <label for="email">E-mail: </label>
-        <input type="email" id="email" name="email">
+        <input type="email" id="email" name="email" required>
         <br>
 
         <label for="senha">Senha: </label>
-        <input type="password" id="senha" name="senha">
+        <input type="password" id="senha" name="senha" required>
         <br><br>
 
-        <!--Formas de realizar o envio do formulario-->
-        <input type="submit" value="Enviar">
-        <button type="submit">Enviar</button>
 
-    </form>
-
-    <br><br>
+        <br><br>
     <!--Radio Button e Check box
     Radio button: Permite escolher uma das escolhas disponíveis a partir de uma limitação com name, exemplo: "sim" ou "não"
     Checkbox: Permite selecionar varias opções
@@ -55,6 +52,46 @@
     <input type="checkbox" id="I" checked><label for="I">Epsódio I</label><br>
     <input type="checkbox" id="II"><label for="II">Epsódio II</label><br>
     <input type="checkbox" id="III"><label for="III">Epsódio III</label><br>
+    <br><br>
+
+    <!--Novas tags para formulários!
+    Select: abre uma lista com as opções para serem selecionadas
+     Option: Tag para definir as opções de escolhes dentro da lista do "select"
+    -->
+
+    <!--UTILIZANDO O SELECT-->
+    <label for="pais">País de origem:</label>
+    <select name="pais" id="pais">
+        <option selected disabled>Selecione a opção deseja</option>
+        <option value="BRA">Brasil</option>
+        <option value="ARG">Argentina</option>
+        <option value="URU">Uruguai</option>
+    </select><br><br>
+
+    <!--UTILIZANDO O TEXT AREA-->
+    <label for="mensagem">Deixe sua mensagem abaixo!</label><br>
+    <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea><br>
+
+    <!--Formas de realizar o envio do formulario
+    I - <input type="submit" value="Enviar">
+    II - <button type="submit">Enviar</button>
+    -->
+    
+    <!--TIPOS DE BOTÕES
+    I - Submit: Envia o formulário
+    II - Reset: Limpa os campos do formulário
+    III - Button: Botão de clique que será programado as ações
+    -->
+    
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar Campos</button>
+    <button type="button">Definir ações</button>
+
+    <!--VALIDAÇÕES DE BOTÕES
+    
+    -->
+    </form>
 
 </body>
+
 </html>
