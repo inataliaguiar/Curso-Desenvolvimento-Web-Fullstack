@@ -1,0 +1,33 @@
+/*
+Pseudo-seletores permitem controlar eventos especiais de determinados elementos
+
+:hover -> Define o estado de um elemento quando o cursor do mouse passar por cima
+:focus -> Define o estilo visual ao focar em um elemento
+
+
+a { text-decoration: none; }
+a: hover{ text-decoration: underline; }
+
+input { border-color: none; }
+input: focus { border-color: red; }
+
+*/
+
+p {
+    color: rgb(22, 22, 26);
+    
+}
+
+p:hover{
+    color: rgb(209, 16, 32);
+    font-size: 25px;
+}
+
+
+input{
+    text-decoration: none;
+}
+
+input:focus{
+    background-color: rgb(235, 231, 231);
+}
