@@ -13,14 +13,18 @@ input: focus { border-color: red; }
 
 */
 
+
+
 p {
     color: rgb(22, 22, 26);
+    
     
 }
 
 p:hover{
     color: rgb(209, 16, 32);
     font-size: 25px;
+    background-image: url(img/starwars.png);
 }
 
 
@@ -29,5 +33,30 @@ input{
 }
 
 input:focus{
+
+    
     background-color: rgb(235, 231, 231);
 }
+
+img{
+    visibility: collapse;
+    height: 400px;
+    width: 400px;
+}
+
+
+
+.teste {
+    width: 500px;
+    height:500px;
+    background-image: url(https://lorempixel.com/400/100/sports/1);
+    background-repeat: no-repeat;
+}
+.teste:hover {
+    width: 500px;
+    height: 500px;
+    background-image: url(img/starwars.png);
+    
+}
+
+

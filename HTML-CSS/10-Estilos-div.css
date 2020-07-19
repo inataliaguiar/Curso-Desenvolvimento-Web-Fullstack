@@ -1,0 +1,35 @@
+div #paragrafo1 {
+    background-color: blue;
+    text-align: center;
+}
+
+div #paragrafo2 {
+    background-color: rgb(29, 235, 29);
+    text-align: center;
+}
+
+div #paragrafo3 {
+    background-color: yellow;
+    text-align: center;
+}
+
+div #paragrafo4 {
+    background-color: red;
+    text-align: center;
+}
+
+div #paragrafo5 {
+    background-color: purple;
+    text-align: center;
+}
+
+div #paragrafo6 {
+    background-color: orange;
+    text-align: center;
+}
+
+span {
+    background-color: royalblue;
+    color: white;
+  
+}

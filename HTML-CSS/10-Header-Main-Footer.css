@@ -1,0 +1,38 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    border: 3px solid grey;
+    padding: 60px;
+    margin: 10px; 
+}
+
+main{
+    border: 3px solid grey;
+    padding: 30px;
+    margin: 10px;
+}
+
+footer{
+    border: 3px solid grey;
+    padding: 30px;
+    margin: 10px;
+}
+
+section{
+    border-top: 2px dotted grey;
+    border-bottom: 2px;
+}
+
+article{
+    padding: 20px;
+    margin: 20px 0;
+    background-color: rgb(61, 61, 224);
+    color: whitesmoke;
+}
+
+span{
+    padding: 2px;
+    background-color: purple;
+}
