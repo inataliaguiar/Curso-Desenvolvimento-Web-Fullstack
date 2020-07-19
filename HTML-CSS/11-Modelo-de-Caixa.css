@@ -1,0 +1,54 @@
+/*
+
+width: define a largura da caixa
+height: define a altura da caixa
+background-color: define a cor de fundo
+padding: define a margem interna de um elemento
+    ao indicar 1 valor: define o mesmo tamanho para os 4 elementos da caixa
+    ao indicar 2 valores: o primeiro valor define o padding de cima e de baixo
+    o segundo valor define o padding da direita e da esquerda
+border: define a borda da caixa
+    estilo da borda: 
+        solid: linha sólida
+        dotted: linha pontilhada
+margin: define a margem/distância de uma caixa a outra 
+    ao indicar 1 valor: define o mesmo tamanho para os 4 elementos da caixa
+    ao indicar 2 valores: o primeiro valor define o padding de cima e de baixo
+    o segundo valor define o padding da direita e da esquerda
+box-sizing: define o tamanho absoluto, já englobando border, padding, e conteúdo
+
+*/
+
+div{
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-style:normal;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.caixa1{
+    background-color: royalblue;
+    border-top: 5px solid rgb(236, 13, 51);
+    border-bottom: 5px solid yellowgreen;
+    border-left: 5px dotted white;
+    border-right: 10px double yellow;
+    
+}
+
+.caixa2{
+    background-color: rgb(22, 238, 130);
+    border: 5px dotted;
+}
+.caixa3{
+    background-color: rgb(255, 6, 47);
+    border: 5px solid royalblue;
+}
+
+.caixa4{
+    background-color: yellow;
+    border: 5px double royalblue;
+}
