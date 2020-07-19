@@ -2,29 +2,28 @@ div{
     margin-right: 1%;
     margin-left: 1%;
     overflow: hidden; /*É utilizado para não sobrepor elementos ao utilizar float*/
+    width: 31%;
+    margin-right: 2%;
 }
 
 .bloco1{
     background-color: lightseagreen;
-    width: 32%;
     float: left;
 }
 
 .bloco2{
     background-color: rebeccapurple;
-    width: 32%;
     float: left;
 }
 
 .bloco3{
     background-color: lightskyblue;
-    width: 32%;
-    
+   
 }
 
 .bloco4{
     background-color: rgb(245, 11, 50);
     display: block;
+    width: 98%;
     margin-top: 2%;
-    width: 99%;
 }
