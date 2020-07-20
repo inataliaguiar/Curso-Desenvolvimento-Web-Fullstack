@@ -1,0 +1,41 @@
+body{
+    overflow: hidden;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+}
+
+header{
+    border: 15px solid rgb(15, 70, 67);
+    background-color: lightseagreen;
+    padding: 5%;
+    box-sizing: border-box;
+    height: 15vh;
+}
+
+article{
+    border: 15px solid rgb(15, 70, 67);
+    background-color: lightseagreen;
+    padding: 5%;
+    box-sizing: border-box;
+    height: 60vh;
+}
+
+article.B{
+    width: 30%;
+    float: left;
+}
+
+article.C{
+    width: 100%;
+}
+
+footer{
+    border: 15px solid rgb(15, 70, 67);
+    background-color: lightseagreen;
+    padding: 5%;
+    box-sizing: border-box;
+    height: 15vh;
+}
