@@ -1,0 +1,103 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    height: 60vh;
+    width: 100%;
+    border-top: 1px solid lightslategrey;
+    border-bottom: 0.5px solid lightslategrey ;
+}
+
+header .headertt{
+    width: 100%;
+}
+
+header img.perfil{
+    margin-top: -12%;
+    margin-left: 3%;
+    width: 20%;
+    
+}
+
+header p{
+    margin-left: 2.5vw;
+}
+
+header p.nome{
+    margin-top: 0;
+    font-size: 18px;
+}
+
+header p.bio{
+    margin-top: 0%;
+    font-size: 20px;
+}
+
+ span img{
+    width: 5%;
+    margin-left: 3%;
+    margin-right: 1%;
+    font-size: 20px;
+}
+
+span.seguindo{
+    margin-top: 20vh;
+    margin-right: 8%;
+    margin-left: 3%;
+}
+
+div.menu{
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    padding: 1%;
+    font-weight: bold;
+
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover{
+    color: blue;
+}
+
+.item{
+    width: 25%;
+    float: left;
+    
+    
+}
+
+.item-2{
+    width: 50%;
+    float: left;
+}
+
+h1{
+    margin-top: 10px;
+    text-align: center;
+    color: crimson;
+}
+
+main{
+    position: absolute;
+    margin-bottom: 20%;
+    text-align: justify;
+    margin-right: 2%;
+    
+}
+
+footer{
+    background-color: crimson;
+    border-top: 10vh;
+    border: 3px solid grey;
+    margin-top: 30vh;
+    width: 95%;
+    position: fixed;
+
+}

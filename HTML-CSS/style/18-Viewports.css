@@ -1,0 +1,44 @@
+header{
+    border: 3px solid grey;
+    text-align: center;
+    color: black;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: lightseagreen;
+    height: 10vh; /*A header ocupara 10% da parte visível da tela*/
+}
+
+img.banner{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+main{
+   
+    box-sizing: border-box;
+    border: 3px solid grey;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+main h1{
+    text-align: center;
+}
+
+article p{
+    background-color: lightskyblue;
+    padding: 10px 20px;
+}
+
+
+footer{
+    border: 3px solid grey;
+    text-align: justify;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+
+
+

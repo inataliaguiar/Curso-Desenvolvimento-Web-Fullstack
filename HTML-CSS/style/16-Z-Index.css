@@ -1,0 +1,101 @@
+.container{
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    border: 3px solid gray;
+    font-size: 24px;
+    text-align: center;
+    height: 10vh;
+    box-sizing: border-box;
+    position: relative;
+    line-height: 50%;
+    position: relative;
+
+    
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+header div{
+    float: left;
+    height: 100%;
+    text-align: center;
+    padding-top: 3vh;
+    box-sizing: border-box;
+    width: 33%;
+}
+
+.google{
+    background-color: lawngreen;
+}
+
+.facebook{
+    background-color: indigo;
+    width: 34%;
+}
+
+.twitter{
+    background-color: lightseagreen;
+}
+
+main div{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    width: 50%;
+    height: 30vh;
+    line-height: 20vh;
+}
+
+.atras{
+    margin-top: 8vh;
+    margin-left: -0.5vh;
+    background-color: midnightblue;
+    z-index: 10;
+}
+
+.meio{
+    margin-top: 0.5vh;
+    margin-left: 25%;
+    background-color: purple;
+    
+}
+
+.frente{
+    margin-top: 0.5vh;
+    margin-left: 50%;
+    background-color: tomato;
+}
+
+
+/*Z-INDEX*/
+
+.a{
+    background-color: deeppink;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 0;
+}
+
+.b{
+    background-color: yellowgreen;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 150;
+    left: 20px;
+}
+
+.c{
+    background-color: darkviolet;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}

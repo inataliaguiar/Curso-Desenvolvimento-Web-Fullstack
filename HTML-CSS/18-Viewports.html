@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/18-Viewports.css">
+</head>
+
+<body>
+    <!--
+        Qualquer medida expressa em porcentagem, sempre estará relacionada com a medida do elemento pai
+        Ex:
+        elementoPai{
+            width: 1200px;
+        }
+        elementoFilho{
+            width: 50%; //width=600px;
+        }
+
+        Viewport: Sempre engloba o tamanho da tela como referência, independente se é um monitor de desktop, tablet ou celular, o viewport sempre terá 100vh e 100vw
+        VH: altura do viewport
+        VW: largura do viewport
+    
+        É necessário sempre colocar a tag do viewport no código
+    -->
+
+    <header>
+        <nav id="menu">
+            <h1>Header</h1>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Main</h1>
+
+            <img src="img/wallpapersw.png" alt="Imagem star wars" class="banner">
+       
+            <article class="p1">
+                <h2>Texto 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dicta delectus possimus vitae?
+                    Nobis similique hic optio commodi tenetur rerum autem deserunt magnam officiis. Beatae molestiae nemo
+                    laborum ut modi
+                </p>
+
+                <h2>Texto 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dicta delectus possimus vitae?
+                    Nobis similique hic optio commodi tenetur rerum autem deserunt magnam officiis. Beatae molestiae nemo
+                    laborum ut modi
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <h1>Footer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias rerum nesciunt at maiores debitis.
+            Dolores modi deleniti ex adipisci alias. Similique deleniti cupiditate corrupti sint consequatur nulla
+            obcaecati necessitatibus quaerat.</p>
+    </footer>
+
+</body>
+
+</html>
