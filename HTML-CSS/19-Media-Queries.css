@@ -1,0 +1,41 @@
+/* "Se houver pelo menos 460px de largura, aplique essa regra"
+"Dessa largura de 460px para cima, aplique essa regra" */
+
+ @media (min-width: 460px){
+    body {
+        background: red;
+    }
+}
+
+/* "Se houver no máximo 460px, aplique essa regra"
+"Dessa largura de 460px para baixo, aplique essa regra" */
+
+@media (max-width: 460px){
+    body{
+        background: blue;
+    }
+}
+
+/* "Se houver uma largura de no máximo 460px e o dispositivo estiver na posição vertical/horizontal, aplique essa regra" */
+
+@media (max-width: 460px) and (orientation: landscape){
+    body{
+        background: red;
+    }
+}
+
+/* Estratégia de desenho: É comum utilizar o mobile first para definir primeiro o estilo para mobile e depois denifir os estilos para se adequarem ao tablet e desktop*/
+
+/*Exemplo: */
+
+body{
+    background: red;
+    /*mobile*/
+}
+
+@media (min-width: 460px){
+   body{
+    background: purple;
+   }
+   /*tablet e desktop*/
+}
