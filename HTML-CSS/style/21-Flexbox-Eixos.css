@@ -1,0 +1,44 @@
+.container{
+
+    height: 100vh;
+    width: 70%;
+    margin-left: 15%;
+    border: 3px solid grey;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; /*Alinha todo o conteúdo no centro da pagina horizonalmente*/
+    align-items: center; /*Alinha todo o conteúdo no centro da página verticalmente*/
+
+
+    /*
+    Direçoes dos elementos filhos: 
+
+    flex-direction: row; Deixa os elementos na ordem natura (erquerda -> direita)
+    flex-direction: row-reverse; Deixa os flex-items na direção padrao
+    flex-direction: column; Deixa os itens alinhados como colunas, um abaixo do outro
+    flex-direction: column-reverse; inverte a ordem das colunas no html 
+
+    */
+
+    /*
+    
+    flex-start: Os elementos ficam no inicio do eixo principal
+    flex-end: Os elementos ficam no final do eixo principal
+    flex-center: Os elementos ficam no centro do eixo principal
+    space-between: alinha os elementos no eixo principal
+    space-around: define o espaçamento igual entre todos os elementos
+
+
+    align
+    */
+}
+
+
+.container div{
+
+    height: 10vh;
+    width: 20%;
+    background-color: mediumvioletred;
+}
